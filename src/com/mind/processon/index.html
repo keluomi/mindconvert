@@ -1,0 +1,225 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>时间管理 | ProcessOn免费在线作图,在线流程图,在线思维导图</title>
+    <meta name="keywords" content="时间管理 ,ProcessOn免费在线作图,在线流程图,在线思维导图">
+    <meta name="description" content="时间管理模板,ProcessOn免费在线作图,在线流程图,在线思维导图 ">
+    <link type='text/css' rel='stylesheet' href='./css/mind.css'/>
+    <link type='text/css' rel='stylesheet' href='./css/icons.css'/>
+    <link rel="stylesheet" href="./css/global.css" type="text/css"/>
+    <link rel="stylesheet" href="./css/view.css" type="text/css"/>
+    <script src="./js/jquery.js" charset="UTF-8" type="text/javascript"></script>
+    <script type='text/javascript' charset='UTF-8' src='./js/mind.util.js'></script>
+    <script src="./js/util.js" charset="UTF-8" type="text/javascript"></script>
+    <script src="./js/mind_ui.js" charset="UTF-8" type="text/javascript"></script>
+    <script type="text/javascript">
+        function numberHandle(n){var numb = n - 0;
+            if(numb > 1000){numb = (numb / 1000).toFixed(1) + 'k'}
+            return numb
+        }
+        var chartId = "5d677997e4b06e9d24cb62ba";
+        var ownerId = "5ba725e5e4b0fe81b642e2cf";
+        var tutorial = false;
+        var themeDef = null;
+        var cteamId = "";
+        var corgId = "";
+        var tempId = "5dae6edbe4b0ea86c301b547";
+        var mind = null;
+        var imagePath = "";
+        //var isMember = ""; //isMember == "true"
+        var viewCount = numberHandle(1965), cloneCount = numberHandle(422), likeCount = numberHandle(5), favouriteCount = numberHandle(16), commentCount = numberHandle(0);
+    </script>
+    <script type='text/javascript' charset='UTF-8' src='./js/mind.core.js'></script>
+    <script type='text/javascript' charset='UTF-8' src='./js/mindview.js'></script>
+    <style>
+        .node-element .node-self > .node-title{
+            min-height:26px;
+            height: auto;
+            white-space: initial;
+        }
+    </style>
+</head>
+<body style="overflow:hidden;">
+<div class="view-nav">
+    <div class="nav-item viewtitle">
+        <a href="/diagrams" id="pologo-link">
+            <img id="pologo" style="width:34px;" alt="ProcessOn免费在线作图" src="./imgs/logobig.png">
+        </a>
+        <span class="title">时间管理</span>
+        <span class="icons show-item" style="margin-left:20px;font-size:15px">&#xe62c;</span>
+    </div>
+    <div class="nav-item viewdetail">
+        <div class="item cont">
+            <span class="icons">&#xe6bc;</span>
+            <div class="viewtext">图形</div>
+        </div>
+        <div class="item  abstract">
+            <span class="icons">&#xe6d2;</span>
+            <div class="viewtext">大纲</div>
+        </div>
+    </div>
+    <div class="nav-item vital">
+        <div class="clone-con">
+            <div id="cloneBtn" class="clone-btn" onclick="newCreateConfirm('5d677997e4b06e9d24cb62ba')" style="margin-right:20px">立即克隆</div>
+        </div>
+        <div id="cloneBtn" class="item" onclick="newCreateConfirm('5d677997e4b06e9d24cb62ba')">
+            <div class="ico_box"><span class="icons">&#xe67a;</span></div>
+            <div class="item-count" id="clone-count"></div>
+        </div>
+        <div title_pos="left" class="item">
+            <div class="ico_box"><span class="icons">&#xe68c;</span></div>
+            <div id="view-count" class="item-count"></div>
+        </div>
+        <div id="userlike" title_pos="left" class="item">
+            <div class="ico_box"><span class="icons">&#xe6d1;</span></div>
+            <div id="like-count" class="item-count"></div>
+        </div>
+        <div title="" id="userfav" title_pos="left" class="item">
+            <div class="ico_box"><span class="icons">&#xe68a;</span></div>
+            <div class="item-count" id="fav-count"></div>
+        </div>
+        <div comment title_pos="left" class="item">
+            <div class="ico_box"><span class="icons">&#xe720;</span></div>
+            <div class="item-count" id="comment-count"></div>
+        </div>
+        <div class="devider"></div>
+        <div share title_pos="left" class="item">
+            <div class="ico_box"><span class="icons" style="font-size:18px;margin-right:5px;">&#xe690;</span></div>
+        </div>
+        <div class="pop-con share">
+            <span class="icons con-close">&#xe637;</span>
+            <span class="icons arrow-rt"></span>
+            <div class="share_box">
+                <div>分享到社交网络</div>
+                <div style="margin-top:6px;">
+                    <a style="color:#3eb94e" onclick="showWeixin(this)" class="icons weixin">&#xe647;</a>
+                    <a style="color:#ff0000" class="icons weibo" target="_blank" rel="nofollow" href="http://service.weibo.com/share/share.php?appkey=4181333602&title=时间管理&url=https://www.processon.com/view/5d677997e4b06e9d24cb62ba&pic=https://assets.processon.com/chart_image/id/5d677997e4b06e9d24cb62ba.png&ralateUid=2711044785">&#xe64a;</a>
+                    <a style="color:#ffce00;" class="icons qzone" target="_blank" rel="nofollow" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?desc=时间管理&title=时间管理&url=https://www.processon.com/view/5d677997e4b06e9d24cb62ba&pics=https://assets.processon.com/chart_image/id/5d677997e4b06e9d24cb62ba.png&summary=时间管理模板">&#xe64b;</a>
+                    <a style="color:#0e97e6;" class="icons qq" target="_blank" rel="nofollow" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.processon.com/view/5d677997e4b06e9d24cb62ba&desc=时间管理&summary=时间管理模板&title=时间管理&site=http://www.processon.com&pics=https://assets.processon.com/chart_image/id/5d677997e4b06e9d24cb62ba.png">&#xe64d;</a>
+                    <a style="color:#2196f3;" class="icons mingdao" target="_blank" rel="nofollow" href="http://www.mingdao.com/share?appkey=5967E9E0B4ADA1B9C23B1893ABAED0F&pic=https://www.processon.com/chart_image/thumb/5d677997e4b06e9d24cb62bc.png&title=时间管理&url=https://www.processon.com/view/5d677997e4b06e9d24cb62ba">&#xe64e;</a>
+                    <a style="color:#228a31;" class="icons douban" target="_blank" rel="nofollow" href="http://www.douban.com/share/service?name=时间管理&href=https://www.processon.com/view/5d677997e4b06e9d24cb62ba">&#xe648;</a>
+                </div>
+                <div style="margin-top:4px;padding-left:2px;">
+                    <a style="color:#3b579d;font-size:27px;vertical-align:-2px;" class="icons facebook" target="_blank" href="http://www.facebook.com/sharer.php?s=100&p[url]=https://www.processon.com/view/5d677997e4b06e9d24cb62ba">&#xe64c;</a>
+                    <a style="color:#1da1f2;font-size:27px;margin-left:3px;" class="icons twitter" target="_blank" href="http://twitter.com/home?status=https://www.processon.com/view/5d677997e4b06e9d24cb62ba">&#xe646;</a>
+                    <a style="color:#1c87bd;font-size:27px;vertical-align:-2px;margin-left:3px;" class="icons linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?url=https://www.processon.com/view/5d677997e4b06e9d24cb62ba&source=http://www.processon.com">&#xe729;</a>
+                    <div style="clear:both;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mind-view">
+    <div class="mind-view-left" style="width:100%">
+        <div class="mind-container" style="overflow:auto;width:100%;display:inline-block;" id="mind_con"></div>
+        <div class="mind-util-container"></div>
+        <div id="outline-dlg" class="outline-dlg" style="display:none;" tit="outline">
+            <div class="outline-wrap">
+                <div class="scroll">
+                    <div class="outline-tittle" style="margin:45px 0;font-size:20px;line-height: 32px;"></div>
+                    <div id="outline-container" style="padding-bottom: 50px;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="controlls-left">
+            <div title="缩小" title_pos="top" class="item" id="op_zoomout">
+                <div class="ico_box"><span class="icons">&#xe73a;</span></div>
+            </div>
+            <div title="放大" title_pos="top" class="item" id="op_zoomin">
+                <div class="ico_box"><span class="icons">&#xe739;</span></div>
+            </div>
+            <div class="devider"></div>
+            <div id="movecenter" title="定位到中心" title_pos="top" class="item ">
+                <div class="ico_box"><span class="icons">&#xe6d6;</span></div>
+            </div>
+            <div class="item" title="全屏视图 (F11)" title_pos="top">
+                <div id="op_fullscreen" class="ico_box"><span class="icons">&#xe6d7;</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="controlls">
+        <div class="chitchat">
+            <span class="icons item-close" style="top:4px">&#xe637;</span>
+            <div class="left_title">用户评论<span id="comment_count">0</span></div>
+            <div class="repler-right">
+                <ul class="reply_list"></ul>
+                <div class="load_more" style="margin:8px;display:none;">
+                    <a id="more_btn" onclick="loadComments()" style="text-decoration:underline;">查看更多</a>
+                </div>
+            </div>
+            <div class="comment-con">
+<span class="user-logo">
+<img src='https://accounts.processon.com/uphoto/1/134/52df60a90cf27bee3761b8a8.png' />
+</span>
+                <div class="textarea" contenteditable="true" onfocus="replyHide()" id="comment"><br/></div>
+                <div style="margin-top:12px;padding-left:49px;position:relative;">
+                    <div id="showFaces" style="margin:6px 0px;display:inline-block;"><span class="icons">&#xe70e;</span></div>
+                    <span id="btn-comment" class="button">发表评论</span>&nbsp;
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="info-temp">
+    <div class="chart-info">
+        <span class="icons item-close">&#xe637;</span>
+        <span class="chart-img">
+<img src='https://accounts.processon.com/uphoto/7/390/5ba725e5e4b0fe81b642e2cf.png' />
+</span>
+        <div class="chart-pubtime"><a href="/u/5ba725e5e4b0fe81b642e2ce" class="user_quickinfo" userId="5ba725e5e4b0fe81b642e2cf" target="_blank">码帝</a>发布于 2019-09-02 11:19:53</div>
+    </div>
+    <div class="file-item">
+        <span class="title">时间管理</span>
+        <div class="chart-des"><span>时间管理模板</span></div>
+        <div class="item-tags">
+            <span class="icons">&#xe63c;</span>
+            <span class="dt-tag">时间管理</span>
+        </div>
+    </div>
+    <div class="item-bottom">
+        <div class="item" id="userReport" title_pos="left" class="item">
+            <div class="ico_box"><span class="icons" style="font-size:13px;margin-right:5px;">&#xe656;</span>举报</div>
+        </div>
+    </div>
+    <div class="special-temp">
+        <span class="title">包含该模版的主题</span>
+        <div class="special-conent"></div>
+    </div>
+</div>
+</div>
+<div id="report-page" class="report-page dialog" title='举报' style="position:absolute;">
+    <div class="payattention">
+        <span class="attentions">我们会认真核实调查，为了保护您和被举报人的权利，请您慎重填写举报原因。</span>
+    </div>
+    <form class="report-form" action="">
+        <textarea class="report-cont text" id="report_content" placeholder="详细描述您举报的内容"></textarea>
+    </form>
+    <div class="dlg-buttons">
+        <span class="pro-btn default" id="btn_submit_report" style="margin-right:10px">确定</span>
+        <span class="pro-btn close">关闭</span>
+    </div>
+</div>
+<link type="text/css" rel="stylesheet" href="./css/markdown-po.css" />
+<script type="text/javascript" src="./js/mind.markdown.js"></script>
+<script type="text/javascript">
+    window.zhuge = window.zhuge || [];window.zhuge.methods = "_init debug identify track trackLink trackForm page".split(" ");
+    window.zhuge.factory = function(b) {return function() {var a = Array.prototype.slice.call(arguments);a.unshift(b);
+        window.zhuge.push(a);return window.zhuge;}};for (var i = 0; i < window.zhuge.methods.length; i++) {
+        var key = window.zhuge.methods[i];window.zhuge[key] = window.zhuge.factory(key);}window.zhuge.load = function(b, x) {
+        if (!document.getElementById("zhuge-js")) {var a = document.createElement("script");var verDate = new Date();
+            var verStr = verDate.getFullYear().toString()+ verDate.getMonth().toString() + verDate.getDate().toString();
+            a.type = "text/javascript";a.id = "zhuge-js";a.async = !0;a.src = (location.protocol == 'http:' ? "http://sdk.zhugeio.com/zhuge.min.js?v=" : 'https://zgsdk.zhugeio.com/zhuge.min.js?v=') + verStr;
+            a.onerror = function(){window.zhuge.identify = window.zhuge.track = function(ename, props, callback){if(callback && Object.prototype.toString.call(callback) === '[object Function]')callback();};};
+            var c = document.getElementsByTagName("script")[0];c.parentNode.insertBefore(a, c);window.zhuge._init(b, x)}};
+    window.zhuge.load('3f37ba50e54f4374b9af5be6d12b208f');//éç½®åºç¨çAppKey
+</script>
+
+</body>
+</html>
